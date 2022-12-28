@@ -6,6 +6,7 @@
 
 # MMM-DolarArgentina
 This module for the [Magic Mirror²](https://github.com/MichMich/MagicMirror) allows you to view the current exchange rate for different USD types.
+> This is inspired by [MMM-CurrencyArg](https://github.com/consus2903/MMM-CurrencyArg) from consus2903. Its not maintained anymore and the original api/handlers dont work.
 
 <div><div>
 <img src=".github/content/screenshot-module-base.png" width="50%">
@@ -39,6 +40,12 @@ git clone https://github.com/Fabrizz/MMM-DolarArgentina.git
 | `url:` | String | The API endpoint. [See below](#data-providers) |
 | `animationSpeed:` | Number | Time in miliseconds of the fade in/out of the module |
 | `useDynamicTheming:` | Boolean | [Future update] Use colors broadcasted from other modules. [See below](#dynamic-theming) |
+  
+### Data providers:
+| Provider | Endpoint |
+| :---: | :--- |
+| `Bluelytics` | [DEFAULT] https://api.bluelytics.com.ar/v2/latest |
+| `Dolarsi` | [DEPRECATED] https://www.dolarsi.com/api/api.php?type=valoresprincipales |
 
 # Dynamic Theming:
 Uses the color data from other modules to dynamically style the module.
