@@ -60,5 +60,8 @@ Modules that bradcasts theme data to other modules:
  Modules that consume theme data:
  | Supported | Description |
  | :--- | :--- |
- | [MMM-DolarArgentina](https://github.com/Fabrizz/MMM-DolarArgentina) | Show ARG-USD currency exchange rates. |
- | [MMM-NowOnSpotify](https://github.com/Fabrizz/MMM-NowOnSpotify) | Use album art colors, standalone or in conjunction to the MMM-Colors module |
+ | [MMM-NowOnSpotify](https://github.com/Fabrizz/MMM-NowOnSpotify) | Show whats playing on your Spotify, theme the elements and backdrop |
+ | [MMM-Lyrics](https://github.com/Fabrizz/MMM-Lyrics) | Show lyrics for MMM-NowOnSpotify (or others), theme the lyrics, elements and backdrop |
+ | [MMM-VisualNotifiactions](https://github.com/Fabrizz/MMM-Lyrics) | Show notifications from yor smarthome or others, theme the notifications |
+ | [MMM-DolarArgentina](https://github.com/Fabrizz/MMM-DolarArgentina) | Show ARG-USD currency exchange rates, theme the display |
+
