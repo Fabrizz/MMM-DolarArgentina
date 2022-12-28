@@ -93,7 +93,6 @@ Module.register("MMM-DolarArgentina", {
 
   /* Dom Generation */
   getDom: function () {
-    console.log(this);
     let wrapper = document.createElement("div");
     wrapper.classList.add("ca-wa");
 
