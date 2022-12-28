@@ -50,11 +50,20 @@ Uses the color data from other modules to dynamically style the module.
 > This feature is planned for a future update, Im working in the modules and in a way of normalizing the colors / multiple providers
 
 ### Theme Providers
+
+The coordinator module calculates all the subcolors depending on the avaible data, also lets you synchronize the mirror theme with the exterior or viceversa.
+
+For example using an MQTT addon to connect to a smarthome system you could set the theme as a ligthbulb (Smarthome -> Mirror) or set the lights in a room to the colors of the album cover art.
+
+ | Coordinator: | |
+ | --- | --- |
+ | [MMM-Colors](https://github.com/Fabrizz/MMM-Colors) | [MAIN MODULE] Use colors defined by an external device or other modules like the defined in the provider section |
+
 Modules that bradcasts theme data to other modules:
  | Providers | Description |
  | :--- | :--- |
- | [MMM-Colors](https://github.com/Fabrizz/MMM-Colors) | Use colors defined by an external device (Ex. match rgb ligthing) using MM2 notifications |
  | [MMM-NowOnSpotify](https://github.com/Fabrizz/MMM-NowOnSpotify) | Use album art colors, standalone or in conjunction to the MMM-Colors module |
+ | [MMM-Colors](https://github.com/Fabrizz/MMM-Colors) | [MAIN MODULE] Use colors defined by an external device (Ex. match rgb ligthing) using MM2 notifications |
 
  ### Support for Dynamic Theming
  Modules that consume theme data:
