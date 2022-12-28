@@ -40,8 +40,6 @@ git clone https://github.com/Fabrizz/MMM-DolarArgentina.git
 | `animationSpeed:` | Number | Time in miliseconds of the fade in/out of the module |
 | `useDynamicTheming:` | Boolean | [Future update] Use colors broadcasted from other modules. [See below](#dynamic-theming) |
 
-### Data providers:
-
 # Dynamic Theming:
 Uses the color data from other modules to dynamically style the module.
 
