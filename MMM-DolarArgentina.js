@@ -143,7 +143,7 @@ Module.register("MMM-DolarArgentina", {
     this.enabled = true;
     this.getDolarExchange();
 
-    if (this.config.useThemeFrom)
+    if (this.config.useDynamicTheming)
       console.warn(
         `[${this.name}] "useThemeFrom" is not a feature enabled yet.`,
       );
