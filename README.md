@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/content/logo-fabrizz-white.svg">
   <source media="(prefers-color-scheme: light)" srcset=".github/content/logo-fabrizz-githubgray.svg">
-  <img alt="Fabrizz logo" src=".github/content/logo-fabrizz-fill.svg">
+  <img alt="Fabrizz logo" src=".github/content/logo-fabrizz-fill.png">
 </picture>
 
 # MMM-DolarArgentina
@@ -40,8 +40,6 @@ git clone https://github.com/Fabrizz/MMM-DolarArgentina.git
 | `animationSpeed:` | Number | Time in miliseconds of the fade in/out of the module |
 | `useDynamicTheming:` | Boolean | [Future update] Use colors broadcasted from other modules. [See below](#dynamic-theming) |
 
-### Data providers:
-
 # Dynamic Theming:
 Uses the color data from other modules to dynamically style the module.
 
@@ -49,15 +47,15 @@ Uses the color data from other modules to dynamically style the module.
 
 > This feature is planned for a future update, Im working in the modules and in a way of normalizing the colors / multiple providers
 
-### Theme Providers
+### Coordinator & Theme providers
 
 The coordinator module calculates all the subcolors depending on the avaible data, also lets you synchronize the mirror theme with the exterior or viceversa.
 
-For example using an MQTT addon to connect to a smarthome system you could set the theme as a ligthbulb (Smarthome -> Mirror) or set the lights in a room to the colors of the album cover art.
+For example using an MQTT addon you can connect to a smarthome system and you could set the theme with a virtual ligthbulb (Smarthome -> Mirror), or set the lights in a room to match the album cover colors (Mirror -> Smarthome).
 
- | Coordinator: | |
+ | [MAIN] Coordinator: | |
  | --- | --- |
- | [MMM-Colors](https://github.com/Fabrizz/MMM-Colors) | [MAIN MODULE] Use colors defined by an external device or other modules like the defined in the provider section |
+ | [MMM-Colors](https://github.com/Fabrizz/MMM-Colors) | [MAIN MODULE] Use colors defined by an external device or other modules like the ones in the providers section |
 
 Modules that bradcasts theme data to other modules:
  | Providers | Description |
