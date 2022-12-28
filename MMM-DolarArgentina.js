@@ -19,7 +19,7 @@ Module.register("MMM-DolarArgentina", {
     /** Fade In/Out speed */
     animationSpeed: 2500,
     /** Use themes bradcasted from other modules */
-    useThemeFrom: null,
+    useDynamicTheming: null,
     /** Currency types */
     types: ["oficial", "blue"],
   },
