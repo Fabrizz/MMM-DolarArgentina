@@ -71,4 +71,3 @@ Modules that bradcasts theme data to other modules:
  | [MMM-Lyrics](https://github.com/Fabrizz/MMM-Lyrics) | Show lyrics for MMM-NowOnSpotify (or others), theme the lyrics, elements and backdrop |
  | [MMM-VisualNotifiactions](https://github.com/Fabrizz/MMM-Lyrics) | Show notifications from yor smarthome or others, theme the notifications |
  | [MMM-DolarArgentina](https://github.com/Fabrizz/MMM-DolarArgentina) | Show ARG-USD currency exchange rates, theme the display |
-
