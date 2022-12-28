@@ -41,7 +41,7 @@ git clone https://github.com/Fabrizz/MMM-DolarArgentina.git
 | `animationSpeed:` | Number | Time in miliseconds of the fade in/out of the module |
 | `useDynamicTheming:` | Boolean | [Future update] Use colors broadcasted from other modules. [See below](#dynamic-theming) |
   
-### Data providers:
+### Data providers
 | Provider | Endpoint |
 | :---: | :--- |
 | `Bluelytics` | [DEFAULT] https://api.bluelytics.com.ar/v2/latest |
