@@ -1,0 +1,54 @@
+/* CSS Variables */
+:root {
+    --DARG-TEXT-TYPE: var(--color-text-bright);
+    --DARG-TEXT-MAIN: var(--color-text-bright);
+    --DARG-TEXT-SUB: var(--color-text);
+}
+
+.MMM-DolarArgentina .ca-wa {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: normal;
+    gap: 24px;
+    margin-top: -18px;
+}
+
+.MMM-DolarArgentina .ca-cnt {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.MMM-DolarArgentina .ca-cnt-dg {
+    color: var(--DARG-TEXT-TYPE);
+    font-weight: 200;
+    font-family: 'Roboto';
+    font-size: 1.08em;
+    letter-spacing: 0.2px;
+    margin-bottom: -10px;
+}
+
+.MMM-DolarArgentina .ca-cnt-ex {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px
+}
+
+.MMM-DolarArgentina .ca-cnt-ex-txt {
+    font-family: 'Roboto';
+    color: var(--DARG-TEXT-MAIN);
+    font-weight: 300;
+    font-size: 1.46em;
+}
+
+.MMM-DolarArgentina .ca-cnt-ex-txt > span {
+    color: var(--DARG-TEXT-SUB);
+    font-weight: 300;
+    font-size: 0.6em;
+    margin-left: 2px;
+}
+
+.MMM-DolarArgentina .rtl {
+  justify-content: end;
+  justify-content: flex-end;
+  text-align: right;
+}
