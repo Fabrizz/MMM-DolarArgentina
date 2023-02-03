@@ -5,8 +5,8 @@
 </picture>
 
 # MMM-DolarArgentina
-This module for the [Magic Mirror²](https://github.com/MichMich/MagicMirror) allows you to view the current exchange rate for different USD types.
-> This is inspired by [MMM-CurrencyArg](https://github.com/consus2903/MMM-CurrencyArg) from consus2903. Its not maintained anymore and the original api/handlers dont work.
+This [Magic Mirror²](https://github.com/MichMich/MagicMirror) module allows you to view the current exchange rate for different USD/ARS types.
+> This was inspired by [MMM-CurrencyArg](https://github.com/consus2903/MMM-CurrencyArg) from consus2903. As its not maintained anymore, (and the original api stopped working), this module was born.
 
 <div><div>
 <img src=".github/content/screenshot-module-base.png" width="50%">
