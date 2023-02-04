@@ -1,9 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github/content/logo-fabrizz-white.svg">
-  <source media="(prefers-color-scheme: light)" srcset=".github/content/logo-fabrizz-githubgray.svg">
-  <img alt="Fabrizz logo" src=".github/content/logo-fabrizz-fill.png">
-</picture>
+[<picture><source align="right" media="(prefers-color-scheme: dark)" srcset=".github/content/logo-fabrizz-white.svg"><source align="right" media="(prefers-color-scheme: light)" srcset=".github/content/logo-fabrizz-githubgray.svg"><img alt="Fabrizz logo" src=".github/content/logo-fabrizz-fill.png" align="right"></picture>](https://fabriz.co/)
 
+#
 # MMM-DolarArgentina
 This [Magic Mirror²](https://github.com/MichMich/MagicMirror) module allows you to view the current exchange rate for different USD/ARS types.
 > This was inspired by [MMM-CurrencyArg](https://github.com/consus2903/MMM-CurrencyArg) from consus2903. As its not maintained anymore, (and the original api stopped working), this module was born.
@@ -52,4 +49,7 @@ Uses the color data from other modules to dynamically style the module.
 
 <img src=".github/content/screenshot-module-dynamicTheme.png" width="68%">
 
-> This feature is planned for a future update, Im working in the modules and in a way of normalizing the colors / multiple providers
+> This featured is not yet enabled, as Im finishing with the color schemes.
+
+##
+With <3 by Fabrizz <br />[fabriz.co](https://fabriz.co/) [<picture><source align="right" media="(prefers-color-scheme: dark)" srcset=".github/content/logo-fabrizz-white.svg"><source align="right" media="(prefers-color-scheme: light)" srcset=".github/content/logo-fabrizz-githubgray.svg"><img alt="Fabrizz logo" src=".github/content/logo-fabrizz-fill.png" align="right"></picture>](https://fabriz.co/)
